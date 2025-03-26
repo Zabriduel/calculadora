@@ -11,7 +11,10 @@ else if (selecionarOperacao == "/"){
     let resultado = numeroUm / numeroDois;
     console.log(`A divisão de ${numeroUm} / ${numeroDois} = ${resultado} `);
 }
-
+else if (selecionarOperacao == "*"){
+    let resultMult = numeroUm * numeroDois;
+    console.log(`A multiplicação de ${numeroUm} X ${numeroDois} = ${resulMult} `);
+}
 else{
-    console.log("Opção inválida");
+    console.log("Opção inválida")
 }
